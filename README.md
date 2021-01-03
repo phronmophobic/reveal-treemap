@@ -8,7 +8,7 @@ For a treemap demo, check out <https://blog.phronemophobic.com/treemap/treemap-d
 
 ## Usage
 
-Add the dependency:
+### Add the dependency:
 
 Leiningen/Boot
 ```
@@ -20,7 +20,7 @@ deps.edn
 com.phronemophobic/reveal-treemap {:mvn/version "0.1.2"}
 ```
 
-Load the `treemap` reveal action
+### Load the `treemap` reveal action
 
 ```
 (require 'com.phronemophobic.reveal-treemap)
