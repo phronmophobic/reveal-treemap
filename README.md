@@ -12,12 +12,12 @@ For a treemap demo, check out <https://blog.phronemophobic.com/treemap/treemap-d
 
 Leiningen/Boot
 ```
-[com.phronemophobic/reveal-treemap "0.1.2"]
+[com.phronemophobic/reveal-treemap "0.1.3"]
 ```
 
 deps.edn
 ```
-com.phronemophobic/reveal-treemap {:mvn/version "0.1.2"}
+com.phronemophobic/reveal-treemap {:mvn/version "0.1.3"}
 ```
 
 ### Load the `treemap` reveal action
