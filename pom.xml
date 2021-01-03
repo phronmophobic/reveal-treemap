@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.phronemophobic</groupId>
   <artifactId>reveal-treemap</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <name>reveal-treemap</name>
   <description>A treemap visualizer action for reveal.</description>
   <url>https://github.com/com.phronemophobic/reveal-treemap</url>
@@ -38,7 +38,7 @@
     <dependency>
       <groupId>com.phronemophobic</groupId>
       <artifactId>membrane</artifactId>
-      <version>0.9.20-beta-SNAPSHOT</version>
+      <version>0.9.20-beta</version>
     </dependency>
     <dependency>
       <groupId>com.phronemophobic</groupId>

@@ -12,12 +12,12 @@ Add the dependency:
 
 Leiningen/Boot
 ```
-[com.phronemophobic/reveal-treemap "0.1.1"]
+[com.phronemophobic/reveal-treemap "0.1.2"]
 ```
 
 deps.edn
 ```
-com.phronemophobic/reveal-treemap {:mvn/version "0.1.1"}
+com.phronemophobic/reveal-treemap {:mvn/version "0.1.2"}
 ```
 
 Load the `treemap` reveal action
