@@ -1,19 +1,26 @@
 # reveal-treemap
 
-FIXME: my new library.
+A treemap visualizer action for reveal
 
 ## Usage
 
-FIXME: write usage documentation!
+Add the dependency:
 
-Invoke a library API function from the command-line:
+Leiningen/Boot
+```
+[com.phronemophobic/reveal-treemap "0.1.1"]
+```
 
-    $ clojure -X com.phronemophobic.reveal-treemap/foo :a 1 :b '"two"'
-    {:a 1, :b "two"} "Hello, World!"
+deps.edn
+```
+com.phronemophobic/reveal-treemap {:mvn/version "0.1.1"}
+```
 
-Run the project's tests (they'll fail until you edit them):
+Load the `treemap` reveal action
 
-    $ clojure -M:test:runner
+```
+(require 'com.phronemophobic.reveal-treemap)
+```
 
 Build a deployable jar of this library:
 
