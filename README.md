@@ -2,6 +2,8 @@
 
 A treemap visualizer action for reveal
 
+For a treemap demo, check out <https://blog.phronemophobic.com/treemap/treemap-demo.html>.
+
 ## Usage
 
 Add the dependency:
