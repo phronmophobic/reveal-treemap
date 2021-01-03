@@ -26,18 +26,6 @@ Load the `treemap` reveal action
 (require 'com.phronemophobic.reveal-treemap)
 ```
 
-Build a deployable jar of this library:
-
-    $ clojure -M:jar
-
-Install it locally:
-
-    $ clojure -M:install
-
-Deploy it to Clojars -- needs `CLOJARS_USERNAME` and `CLOJARS_PASSWORD` environment variables:
-
-    $ clojure -M:deploy
-
 ## License
 
 Copyright © 2021 Adrian
