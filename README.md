@@ -23,7 +23,7 @@ com.phronemophobic/reveal-treemap {:mvn/version "0.1.4"}
 ### Load the `treemap` reveal action
 
 ```
-(require 'com.phronemophobic.reveal-plugin.reveal-exception)
+(require 'com.phronemophobic.reveal-treemap)
 ```
 
 ## License
