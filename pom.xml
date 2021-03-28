@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.phronemophobic</groupId>
   <artifactId>reveal-treemap</artifactId>
-  <version>0.1.4</version>
+  <version>0.1.5</version>
   <name>reveal-treemap</name>
   <description>A treemap visualizer action for reveal.</description>
   <url>https://github.com/com.phronemophobic/reveal-treemap</url>
@@ -31,19 +31,19 @@
       <version>1.10.1</version>
     </dependency>
     <dependency>
-      <groupId>vlaaad</groupId>
-      <artifactId>reveal</artifactId>
-      <version>1.2.182</version>
-    </dependency>
-    <dependency>
       <groupId>com.phronemophobic</groupId>
       <artifactId>membrane</artifactId>
-      <version>0.9.20-beta</version>
+      <version>0.9.23-beta</version>
+    </dependency>
+    <dependency>
+      <groupId>vlaaad</groupId>
+      <artifactId>reveal</artifactId>
+      <version>RELEASE</version>
     </dependency>
     <dependency>
       <groupId>com.phronemophobic</groupId>
       <artifactId>treemap-clj</artifactId>
-      <version>0.2.0</version>
+      <version>0.2.2</version>
     </dependency>
   </dependencies>
   <build>
@@ -53,10 +53,6 @@
     <repository>
       <id>clojars</id>
       <url>https://repo.clojars.org/</url>
-    </repository>
-    <repository>
-      <id>sonatype</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
     </repository>
   </repositories>
   <distributionManagement>
