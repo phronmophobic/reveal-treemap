@@ -56,8 +56,7 @@
                             (let [node (.getTarget e)
                                   x (.getX e)
                                   y (.getY e)
-                                  rect (->> (ui/mouse-down (apply treemap-clj.view/treemap-explore
-                                                                  (sequence cat state))
+                                  rect (->> (ui/mouse-down (treemap-clj.view/treemap-explore state)
                                                            [x y])
                                             (some (fn [[type & args :as intent]]
                                                     (when (= type :treemap-clj.view/select-rect)
